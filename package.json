@@ -1,0 +1,39 @@
+{
+  "name": "remove-console",
+  "displayName": "remove-console",
+  "description": "removed console on your code",
+  "publisher": "Jiman",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/wslp12/remove-console.git"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onCommand:extension.remove-console"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.remove-console",
+        "title": "remove-console"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.12.21",
+    "@types/vscode": "^1.38.0",
+    "eslint": "^5.13.0",
+    "glob": "^7.1.4",
+    "mocha": "^6.1.4",
+    "typescript": "^3.3.1",
+    "vscode-test": "^1.2.0"
+  }
+}
