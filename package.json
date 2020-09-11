@@ -3,7 +3,7 @@
   "displayName": "remove-console",
   "description": "removed console on your code",
   "publisher": "Jiman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.38.0"
   },
